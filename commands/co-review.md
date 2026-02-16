@@ -88,6 +88,8 @@ CRITICAL: Present ONE module, then STOP. Do not continue until the operator
 responds. This is a conversation, not a report — presenting all modules at once
 defeats the purpose. Operator reactions between modules are the point.
 
+NEVER move on to the next module or step until the human operator says to do so.
+
 ## 4. Wrap-up
 
 - Raise any cross-cutting concerns: consistency, data-flow / error-handling
