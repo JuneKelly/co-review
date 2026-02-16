@@ -18,7 +18,10 @@ The operator might specify what to review, like "the current changes" or
 - main branch: list the 3–5 most recently active branches
   (`git branch --sort=-committerdate | head -5`) and ask the operator to pick
 
-Operator input: ```text $ARGUMENTS```
+Operator input:
+```text
+$ARGUMENTS
+```
 
 ### Gathering the diff
 
