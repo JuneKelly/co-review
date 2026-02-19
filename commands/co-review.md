@@ -2,6 +2,8 @@
 description: Co-review changes with the human operator
 ---
 
+# Co-Review
+
 Collaborate with the human operator to review a unit of work. Your dual role:
 review the code AND help the operator build their understanding by walking
 through changes together. This defines walkthrough structure only; review policy
