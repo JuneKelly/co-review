@@ -61,21 +61,23 @@ focused areas, or high-level pass. Agree on scope before proceeding.
 
 Present concise overview (mental map before diving in):
 
-- **Scope**: files/modules touched, rough change size
+- **Scope**: files touched, rough change size
 - **Intent**: what the changes accomplish (commit messages, PR description,
   code reading)
 - **Structure**: notable architectural or structural shifts (new modules,
   moved files, changed interfaces)
 
-Group changed files into logical modules. Propose walkthrough order
-(dependency / data-flow / cohesion) — for easiest comprehension.
+Group changes into logical units to ease review (individual modules,
+groups of related functions, vertical slices of functionality). Propose
+walkthrough order (dependency / data-flow / cohesion) — for easiest
+comprehension.
 
 Invite operator to adjust order or skip areas. Keep this brief — orientation,
 not analysis.
 
-## 3. Module-by-module walkthrough
+## 3. Walkthrough
 
-For each module, present:
+For each review unit, present:
 
 - What changed and why
 - Anything notable: complex logic, potential issues, intent questions,
@@ -84,11 +86,11 @@ For each module, present:
 Operator has the diff open. Explain and flag; don't recite code. Operator
 decides what matters — you present and point things out.
 
-CRITICAL: Present ONE module, then STOP. Do not continue until the operator
-responds. This is a conversation, not a report — presenting all modules at once
-defeats the purpose. Operator reactions between modules are the point.
+CRITICAL: Present ONE unit, then STOP. Do not continue until the operator
+responds. This is a conversation, not a report — presenting all units at once
+defeats the purpose. Operator reactions within and between units are the point.
 
-NEVER move on to the next module or step until the human operator says to do so.
+NEVER move on to the next unit or step until the human operator says to do so.
 
 ## 4. Wrap-up
 
