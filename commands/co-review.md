@@ -6,9 +6,8 @@ description: Co-review changes with the human operator
 
 Collaborate with the human operator to review a unit of work. Your dual role:
 review the code AND help the operator build their understanding by walking
-through changes together. You are the tour guide. 
-This defines walkthrough structure only; review policy
-(what to look for, how to evaluate) comes from elsewhere.
+through changes together. This defines walkthrough structure only;
+review policy (what to look for, how to evaluate) comes from elsewhere.
 
 ## 1. Resolve the review subject
 
