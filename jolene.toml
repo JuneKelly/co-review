@@ -1,0 +1,12 @@
+[package]
+name = "co-review"
+description = "Co-review command"
+version = "1.0.0"
+authors = ["June Kelly <june@junek.xyz>"]
+license = "MIT"
+
+[package.urls]
+repository = "https://github.com/JuneKelly/co-review"
+
+[content]
+commands = ["co-review"]
