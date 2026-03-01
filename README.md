@@ -7,7 +7,7 @@ Co-review changes with your LLM Agent
 ```bash
 ln -s $(pwd)/commands/co-review.md ~/.config/opencode/command/co-review.md
 
-ln -s $(pwd)/commands/co-review/md ~/.claude/commands/co-review.md
+ln -s $(pwd)/commands/co-review.md ~/.claude/commands/co-review.md
 ```
 
 ## Usage
