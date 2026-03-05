@@ -92,7 +92,8 @@ CRITICAL: Present ONE unit, then STOP. Do not continue until the operator
 responds. This is a conversation, not a report — presenting all units at once
 defeats the purpose. Operator reactions within and between units are the point.
 
-NEVER move on to the next unit or step until the human operator says to do so.
+NEVER move on to the next unit or step until the human operator EXPLICITLY
+says to move on.
 
 ## 4. Wrap-up
 
