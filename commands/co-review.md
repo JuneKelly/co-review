@@ -74,6 +74,8 @@ groups of related functions, vertical slices of functionality). Propose
 walkthrough order (dependency / data-flow / cohesion) — for easiest
 comprehension.
 
+The first unit should be a high-level overview of the changes.
+
 Invite operator to adjust order or skip areas. Keep this brief — orientation,
 not analysis.
 
