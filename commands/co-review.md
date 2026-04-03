@@ -88,7 +88,8 @@ For each review unit, present:
   things worth a closer look
 
 Operator has the diff open. Explain and flag; don't recite code. Operator
-decides what matters — you present and point things out.
+decides what matters — you present and point things out. Mention specific files
+and line numbers when relevant.
 
 CRITICAL: Present ONE unit, then STOP. Do not continue until the operator
 responds. This is a conversation, not a report — presenting all units at once
