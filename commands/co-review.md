@@ -18,11 +18,11 @@ If operator specifies a target, use it. Otherwise infer or ask:
 - Main branch → list 3–5 most recent branches
   (`git branch --sort=-committerdate | head -5`), ask operator to pick
 
-Operator input:
+Here is the operator input, it might specify the branch, and/or additional instructions:
 
-```text
+<operator_input>
 $ARGUMENTS
-```
+</operator_input>
 
 ### Gathering the diff
 
