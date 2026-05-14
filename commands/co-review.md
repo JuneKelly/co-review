@@ -17,7 +17,9 @@ If operator specifies a target, use it. Otherwise infer or ask:
 - Non-main branch, no pending changes → review current branch vs main
 - Main branch → list 3–5 most recent branches
   (`git branch --sort=-committerdate | head -5`), ask operator to pick
-
+  
+Use a sub-agent for this.
+  
 Here is the operator input, it might specify the branch, and/or additional instructions:
 
 <operator_input>
